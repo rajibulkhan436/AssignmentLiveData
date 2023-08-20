@@ -48,7 +48,7 @@
 
 
         <Button
-            android:id="@+id/btnAddExpense"
+            android:id="@+id/btnAdd"
             android:layout_margin="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
