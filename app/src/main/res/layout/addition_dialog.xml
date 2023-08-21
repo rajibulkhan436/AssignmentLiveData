@@ -46,6 +46,14 @@
         </com.google.android.material.textfield.TextInputLayout>
 
 
+        <TextClock
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:format12Hour="hh:mm:ss a"
+            android:textSize="25dp"
+            android:id="@+id/textClock"
+            />
 
         <Button
             android:id="@+id/btnAdd"

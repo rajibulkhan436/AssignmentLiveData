@@ -14,6 +14,7 @@ class NotesViewModel(application: Application) : AndroidViewModel(application) {
         notesList = notesDao.getNotes()
     }
 
+
     fun insertNotes(notesEntity: NotesEntity){
         viewModelScope.launch {
             notesDao.insertNotes(notesEntity)
